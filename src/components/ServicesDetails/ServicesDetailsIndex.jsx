@@ -10,7 +10,7 @@ const ServicesIndex = () => {
   return (
     <>
       <div className="w-full bg-blueGray-100 overflow-hidden">
-        <div className="w-full bg-red-400 ml-auto mr-auto container mx-auto flex flex-wrap pb-12">
+        <div className="w-full ml-auto mr-auto container mx-auto flex flex-wrap pb-12">
           {/* Left Col */}
           <div className="md:w-4/12 sm:mx-24 mx-12">
             <ServicesDetailsText
