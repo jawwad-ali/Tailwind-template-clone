@@ -7,10 +7,10 @@ import Pages from "../../assets/img/pages.PNG";
 const Services = () => {
   return (
     <>
-      <section className="mt-60 pb-40 relative bg-blueGray-100 ">
+      <section className="lg:mt-60 mt-24 pb-40 relative bg-blueGray-100 ">
         {/* Bg */}
         <div
-          className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
+          className="-mt-20 top-0 left-0 right-0 w-full absolute h-20"
           style={{ transform: "translateZ(0)" }}
         >
           <svg
@@ -33,7 +33,7 @@ const Services = () => {
           <div className="flex flex-wrap items-center">
             {/* Left Col */}
 
-            <div className="lg:w-4/12 ml-auto mr-auto -mt-24 md:w-6/12">
+            <div className="lg:w-4/12 ml-auto mr-auto -mt-24 md:w-6/12 w-8/12">
               <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
                 <img
                   alt="..."
@@ -45,7 +45,7 @@ const Services = () => {
                     preserveAspectRatio="none"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 583 95"
-                    className="absolute left-0 w-full block h-95-px -top-[68px] "
+                    className="absolute left-0 w-full block h-95-px sm:-top-[68px] -top-[46px]  "
                   >
                     <polygon
                       points="-30,95 583,95 583,65"
@@ -61,33 +61,33 @@ const Services = () => {
                     presentation to login areas, you can easily customise and
                     built your pages.
                   </p>
-                </blockquote>
+                </blockquote> 
               </div>
             </div>
             {/* Right Col */}
-            <div className=" w-6/12 flex flex-wrap mt-12">
-              <div className="w-1/2 px-12 flex flex-col items-start">
+            <div className="w-full sm:w-6/12 flex flex-wrap mt-12">
+              <div className="w-full sm:w-1/2 px-12 flex flex-col items-start">
                 <img src={CssComp} alt="css compo" className="pb-2" />
                 <h4 className="mb-1 capitalize text-xl font-semibold ">
                   css components
                 </h4>
                 <p className="mb-4 text-blueGray-500">
                   Notus React comes with a huge number of Fully Coded CSS
-                  components.
-                </p>
+                  components. 
+                </p> 
               </div>
-              <div className="w-1/2 flex flex-col items-start px-6">
+              <div className="w-full md:w-1/2 flex px-12 sm:px-6 flex-col items-start">
                 <img src={Pages} alt="pagess" />
                 <h4 className=" capitalize text-xl font-semibold mb-1">
-                  Pages
+                  Pages 
                 </h4>
                 <p className="mb-4 text-blueGray-500">
                   This extension also comes with 3 sample pages. They are fully
                   coded so you can start working instantly.
                 </p>
               </div>
-
-              <div className="w-1/2 px-12 flex flex-col items-start">
+ 
+              <div className="w-full md:w-1/2 px-12 flex flex-col items-start">
                 <img src={Js} alt="pagess" className="pb-2" />
                 <h4 className=" capitalize text-xl font-semibold mb-1">
                   JavaScript Components
@@ -96,8 +96,8 @@ const Services = () => {
                   We also feature many dynamic components for React, NextJS, Vue
                   and Angular.
                 </p>
-              </div>
-              <div className="w-1/2 flex flex-col items-start px-6">
+              </div> 
+              <div className="w-full md:w-1/2 flex px-12 sm:px-6 flex-col items-start ">
                 <img src={Docs} alt="docs" />
                 <h4 className="py-4 capitalize text-xl font-semibold mb-1">
                   Documentation

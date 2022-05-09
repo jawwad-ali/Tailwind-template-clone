@@ -8,6 +8,6 @@
     }
   
     .btn { 
-        @apply uppercase text-xs p-0 text-blueGray-700 font-bold hover:text-blueGray-500;
+        @apply uppercase text-xs p-0 inline-block text-blueGray-700 font-bold hover:text-blueGray-500;
     }
 }

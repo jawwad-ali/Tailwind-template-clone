@@ -8,19 +8,19 @@ const IndexNavbar = () => {
       <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-5 navbar-expand-lg bg-white shadow">
         <div className="container mx-auto flex flex-wrap justify-between items-center">
           {/* Left Column */}
-          <div className="flex flex-row justify-between w-auto "> 
-            <a className="font-bold uppercase pl-2 text-sm text-blueGray-700 mr-4 md:ml-2">
-              NOTUS REACT 
+          <div className="flex flex-row justify-between w-auto ">
+            <a className="ml-2 font-bold uppercase pl-2 text-sm text-blueGray-700 mr-4 md:ml-2">
+              NOTUS REACT
             </a>
- 
-            <button className="btn md:hidden">
+
+            <button className="sm:btn hidden">
               <DocumentTextIcon className="h-6 w-6 font-bold inline-block text-blueGray-400 far fa-file-alt text-lg leading-lg ml-2" />
               docs
             </button>
           </div>
 
           {/* Right Column */}
-          <div className="lg:flex justify-between px-4 w-auto items-center sm:hidden">
+          <div className="hidden lg:flex justify-between px-4 w-auto items-center">
             <a
               className="text-blueGray-700 hover:text-blueGray-500 px-3 uppercase text-xs font-bold"
               href="#"
