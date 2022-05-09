@@ -1,6 +1,7 @@
 import HeroSection from "./components/HeroSection/HeroSection";
 import IndexNavbar from "./components/Navbars/IndexNavbar";
 import Services from "./components/Services/Services";
+import ServicesDetailsIndex from "./components/ServicesDetails/ServicesDetailsIndex"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <IndexNavbar />
       <HeroSection />
       <Services />
+      <ServicesDetailsIndex />
     </>
   );
 }

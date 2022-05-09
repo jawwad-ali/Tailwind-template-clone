@@ -12,7 +12,7 @@ const Services = () => {
         <div
           className="-mt-20 top-0 left-0 right-0 w-full absolute h-20"
           style={{ transform: "translateZ(0)" }}
-        >
+        > 
           <svg
             className="absolute bottom-0 overflow-hidden"
             xmlns="http://www.w3.org/2000/svg"
