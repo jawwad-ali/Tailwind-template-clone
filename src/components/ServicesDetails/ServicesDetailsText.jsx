@@ -22,9 +22,9 @@ const ServicesDetailsText = ({
       <h3 className="capitalize text-3xl font-semibold">{title}</h3>
       <p className="text-blueGray-600 text-lg font-light my-5 pr-6 leading-relaxed">
         {text}
+        <br /> 
         <br />
-        <br />
-        {text2}
+        {text2} 
       </p>
       <div className="mt-2 inline-block">
         <button className="bg-white text-xs mr-2 mb-3 font-semibold py-1 px-2 uppercase text-blueGray-500 rounded-full">

@@ -66,7 +66,6 @@ const ServicesIndex = () => {
         </div>
 
         {/* section 2 */}
-
         <div className="w-full ml-auto mr-auto container mx-auto flex flex-wrap pb-12 mt-0 md:mt-56">
           <div className="w-full flex flex-col lg:flex-row md:w-6/12 lg:4/12 md:ml-10 pb-48 justify-center px-4 sm:px-0">
             <div className="relative flex flex-col min-w-0 mb-6 mt-12 md:-mx-2 md:mt-0 lg:w-5/12 px-4 md:px-8 md:py-4 lg:px-0">
@@ -107,14 +106,14 @@ const ServicesIndex = () => {
             {/*  */}
             <div className="relative flex flex-col min-w-0 px-4 pt-12 mb-6 lg:ml-12 -mt-16 md:-mt-12 lg:mt-12 md:ml-0 lg:w-5/12 lg:px-0 w-full md:px-6 md:py-4 md:-mx-2">
               <div className="flex flex-col items-center w-full  justify-center rounded-lg bg-yellow-500 mb-8 text-center">
-                <img 
+                <img
                   className="bg-white rounded-full w-16 mt-8"
                   src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
                   alt=""
                 />
                 <p className="text-white text-lg font-semibold pb-8 pt-4">
                   JavaScript
-                </p> 
+                </p>
               </div>
 
               <div className="flex flex-col items-center w-full justify-center  rounded-lg bg-red-700 mb-8 text-center">
@@ -158,6 +157,38 @@ const ServicesIndex = () => {
                 btn8="tooltips"
               />
             </div>
+          </div>
+        </div>
+
+        {/* Section 3 */}
+        <div className="flex flex-wrap container mx-auto">
+          <div className="w-full md:w-5/12 mt-56 md:mt-40 lg:mt-0 lg:w-5/12 ml-9 md:ml-14">
+            <div className="px-6 ml-3">
+              <ServicesDetailsText
+                img={Docs}
+                title="Complex Documentation"
+                text="This extension comes a lot of fully coded examples that help you get started faster. You can adjust the colors and also the programming language. You can change the text and images and you're good to go."
+                btn1="alerts"
+                btn2="dropdowns"
+                btn3="menus"
+                btn4="modals"
+                btn5="navbars"
+                btn6="popovers"
+                btn7="tabs"
+                btn8="tooltips"
+              />
+            </div>
+          </div>
+          <div className="w-10/12 ml-auto mr-auto mt-24 md:w-6/12 pb-16 md:mt-80 lg:mt-10">
+            <img
+              className="max-w-full rounded-lg shadow-xl"
+              src="https://demos.creative-tim.com/notus-react/static/media/documentation.014ebef5.png"
+              alt=""
+              style={{
+                transform:
+                  "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
+              }}
+            />
           </div>
         </div>
       </div>
